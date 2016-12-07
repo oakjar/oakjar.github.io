@@ -1015,6 +1015,9 @@
 		}
 
 /* Header */
+	#header {
+		max-width: 30em;
+	}
 
 	#header h1 {
 		font-size: 3.25em;
