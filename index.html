@@ -18,9 +18,21 @@
 		<p>We love to talk with perspective clients about our process. We can help you better understand how to get the most from your marketing dollars.</p>
 	</header>
 
-	<form id="signup-form" method="post" action="#">
-		<input type="email" name="email" id="email" placeholder="Email Address" />
-		<input type="submit" value="Sign Up" />
+	<form id="signup-form" method="post" action="https://formspree.io/katie@oakjar.com">
+		<div class="field">
+			<input type="text" name="name" id="name" placeholder="Name" />
+		</div>
+		<div class="field">
+			<input type="email" name="email" id="email" placeholder="Email" />
+		</div>
+		<div class="field">
+			<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+		</div>
+		
+		<input type="text" name="_gotcha" style="display:none" />
+		<input type="hidden" name="_next" value="http://oakjar.com/thanks.html" />
+		
+		<input type="submit" id="sendMessage" value="Send Email" />
 	</form>
 
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
