@@ -606,6 +606,7 @@
 
 	form {
 		margin: 0 0 2em 0;
+		max-width: 30em;
 	}
 
 		form .message {
@@ -780,7 +781,7 @@
 		background-color: transparent;
 		border-radius: 6px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.35);
+		border: solid 2px rgba(255, 255, 255, 0.4);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1066,21 +1067,21 @@
 /* Signup Form */
 
 	#signup-form {
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		position: relative;
+		position: relative;*/
 	}
 
 		#signup-form input[type="text"],
 		#signup-form input[type="password"],
 		#signup-form input[type="email"] {
-			width: 18em;
+			/*width: 18em;*/
 		}
 
 		#signup-form > * {
-			margin: 0 0 0 1em;
+			margin: 0 0 1em 0;
 		}
 
 		#signup-form > :first-child {
